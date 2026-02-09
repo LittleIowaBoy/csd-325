@@ -1,6 +1,6 @@
-def city_country(*args):
+def city_country(city, country, *args):
     
-    return f"{', '.join(args)}"
+    return f"{city}, {country} {', '.join(args)}"
 
 
 
