@@ -1,10 +1,10 @@
-def city_country(city, country, population=None, language=None):
+def city_country(city, country, population=None, language=None): # Changed *args to specific parameters with default values
     parts = [f"{city}, {country}"]
-    if population:
+    if population: # Check if population is provided
         parts.append(f"Population: {population}")
-    if language:
+    if language: # Check if language is provided
         parts.append(f"Language: {language}")
-    return ", ".join(parts)
+    return ", ".join(parts) # Join all parts with a comma and space with no trailing space 
 
 
 
