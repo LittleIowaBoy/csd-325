@@ -1,8 +1,4 @@
 
-# Caleb Schumacher
-# CSD 325 Module 8.2
-# February 14, 2026
-
 
 import json
 
